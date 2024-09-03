@@ -23,7 +23,7 @@ jobs:
          path: /home/runner/work/minimal_x86_64_os/minimal_x86_64_os/minimal_x86_64_os/build-script/image/
          
     - name: Download a Build Artifact
-      uses: actions/download-artifact@v2
+      uses: actions/download-artifact@v4.1.7
       with:
         # Destination path
         path:  /home/runner/work/minimal_x86_64_os/minimal_x86_64_os/minimal_x86_64_os/build-script/output/  
@@ -47,7 +47,7 @@ jobs:
          path: /home/runner/work/minimal_x86_64_os/minimal_x86_64_os/minimal_x86_64_os/build-script/image/
          
     - name: Download a Build Artifact
-      uses: actions/download-artifact@v2
+      uses: actions/download-artifact@v4.1.7
       with:
         # Destination path
         path:  /home/runner/work/minimal_x86_64_os/minimal_x86_64_os/minimal_x86_64_os/build-script/output/    
